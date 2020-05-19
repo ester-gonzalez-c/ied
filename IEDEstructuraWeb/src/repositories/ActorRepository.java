@@ -17,7 +17,10 @@ public class ActorRepository {
 		return conn;
 	}
 	
-	/*Method to get all actors in database*/
+	/**
+	 * Method to get the list of all actors in our database
+	 * @return
+	 */
 	public List<Actor> getAllActors(){
 		List<Actor> actorsList = new ArrayList<Actor>();
 		try {
