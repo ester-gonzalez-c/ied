@@ -1,5 +1,6 @@
 package domains;
 
+/*Object Actor related to table actores in database*/
 public class Actor {
 
 	private Long id;
