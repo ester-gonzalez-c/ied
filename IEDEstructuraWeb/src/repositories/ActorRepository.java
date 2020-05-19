@@ -10,14 +10,14 @@ import java.util.List;
 import domains.Actor;
 
 public class ActorRepository {
-	
+	/*Method to get the connection with our database*/
 	private Connection getConnection() {
 		ConnectionManager connectionManager = new ConnectionManager();
 		Connection conn = connectionManager.createConnection();
 		return conn;
 	}
 	
-	
+	/*Method to get all actors in database*/
 	public List<Actor> getAllActors(){
 		List<Actor> actorsList = new ArrayList<Actor>();
 		try {

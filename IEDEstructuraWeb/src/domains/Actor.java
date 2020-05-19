@@ -9,7 +9,7 @@ public class Actor {
 	private int edad;
 	
 	
-	
+	//Getters and setters
 	public Long getId() {
 		return id;
 	}
